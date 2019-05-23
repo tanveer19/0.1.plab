@@ -1,0 +1,224 @@
+/* PLAB CUSTOM CSS */
+
+
+
+@media screen and (max-width: 768px) {
+  .arrow{
+    display: none;
+  }
+}
+.site {
+  max-width: 1024px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+/* font */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.col-12 a {
+  text-decoration: none;
+}
+
+.nav-link span {
+  margin-left: 20px;
+}
+
+/* .back-to-top  */
+
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
+}
+
+
+/* carousel */
+.carousel-width {
+  padding: 0;
+}
+
+.below-slider .col-4 {
+  padding-left: 0;
+  padding-right: 1px;
+  padding-top: 1px;
+}
+
+.below-slider {
+  position: relative;
+}
+
+.below-slider p {
+ position: absolute;
+ top: 35%;
+ left: 20%;
+ color: white;
+ font-size: 200%;
+}
+
+/* titlesWithArrows */
+.titlesWithArrows{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* for second carousel */
+
+
+/* product */
+
+.product-item-bg img {
+  max-width: 230px;
+  max-height: 140px;
+  border-radius: .5rem;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+.product-item-bg {
+  background-color: #e8e8ea;
+  border-radius: .5rem;
+  max-width: 260px;
+  margin-left: 6%;
+  margin-bottom: 5px;
+
+}
+
+.product-item-text {
+  color: white;
+  font-size: 33px;
+  margin-top: -100px;
+}
+
+.product-more-btn {
+  background-color: #ed1c24;
+  padding: 10px 30px;
+  border-radius: .5rem;
+}
+
+.product-item-bg a {
+  color: white;
+}
+/* fixing left arrow */
+.carousel-control-prev {
+  left: -21px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+  opacity: 1;
+}
+/* about us */
+.post-content {
+  text-align: center;
+  color: white;
+  top: 210px;
+  left: 15%;
+  position: absolute;
+}
+
+.about_us {
+  position: relative;
+}
+
+.about_us_text {
+  text-align: left;
+  width: 50%;
+  color: white;
+  top: 230px;
+  left: 40px;
+  position: absolute;
+}
+
+.about_us_text2 {
+  font-size: 4em;
+  color: white;
+  top: 250px;
+  right: 1%;
+  position: absolute;
+}
+
+.experience-text-bg {
+  max-width: 780px;
+  max-height: 330px;
+  border-radius: .5rem;
+  background-color: #ebebeb;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+
+/* contact */
+#contact {
+  position: relative;
+  color: white;
+}
+
+.contact-inner {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.contact-right{
+  margin-top: 2px;
+  margin-right: 145px;
+}
+.contact-right span{
+  margin-right: 35px;
+}
+.google-map-bg{
+  border: 10px solid #d9d6d6;
+}
+
+.below-slider p{
+   font-size: 2vw;
+}
