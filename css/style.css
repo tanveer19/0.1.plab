@@ -146,15 +146,14 @@ body {
 .product-item-bg a {
   color: white;
 }
-/* fixing left arrow */
-.carousel-control-prev {
-  left: -21px;
-}
+
 .carousel-control-prev,
 .carousel-control-next{
   opacity: 1;
 }
+
 /* about us */
+
 .post-content {
   text-align: center;
   color: white;
