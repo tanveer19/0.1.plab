@@ -7,6 +7,10 @@
     display: none;
   }
 }
+
+.navbar{
+  /* margin: 0 auto; */
+}
 .site {
   max-width: 1024px;
   margin: 10px auto;
@@ -166,7 +170,7 @@ body {
   position: relative;
 }
 
-.about_us_text {
+#about_us_text {
   text-align: left;
   width: 50%;
   color: white;

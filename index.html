@@ -64,7 +64,7 @@
                 <a class="nav-link" href="#product">PRODUCTS <span>|</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about_us">ABOUT US <span>|</span></a>
+                <a class="nav-link" href="#about_us_text">ABOUT US <span>|</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#experience">EXPERIENCE <span>|</span></a>
@@ -92,7 +92,7 @@
         <div class="col-md-12 carousel-width">
 
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            
+
             <div class="carousel-inner">
 
               <div class="carousel-item active">
@@ -156,7 +156,7 @@
         </div>
 
         <div>
-          <h1>SHOWROOM</h1>
+          <h1 id="showroom">SHOWROOM</h1>
         </div>
 
         <div>
@@ -180,7 +180,7 @@
         </div>
 
         <div>
-          <h1>PRODUCT</h1>
+          <h1 id="product">PRODUCT</h1>
         </div>
 
         <div>
@@ -199,7 +199,7 @@
       <div class="row">
         <div class="col-md-12">
           <div id="carousel" class="carousel slide" data-ride="carousel">
-       
+
 
             <div class="carousel-inner">
 
@@ -309,7 +309,7 @@
 
       <div class="row about_us">
         <img src="images/about_us_down.jpg" class="img-fluid" alt="">
-        <div class="about_us_text">
+        <div id="about_us_text">
           <h3 class="d-none d-xl-block">Texplorer</h3>
           <h4 class="d-none d-xl-block">The quick brown fox jumps over the lazy dog. The quick brown fox jumps over
             the lazy dog. The quick brown
@@ -319,22 +319,22 @@
         <h1 class="about_us_text2">Texplorer</h1>
       </div>
 
-            <div class="row titlesWithArrows">
+      <div class="row titlesWithArrows">
 
-              <div>
-                <img class="arrow" src="images/circle-left.png" alt="">
-              </div>
+        <div>
+          <img class="arrow" src="images/circle-left.png" alt="">
+        </div>
 
-              <div>
-                <h1>EXPERIENCE</h1>
-              </div>
+        <div>
+          <h1 id="experience">EXPERIENCE</h1>
+        </div>
 
-              <div>
-                <img class="arrow" src="images/circle-right.png" alt="">
-              </div>
+        <div>
+          <img class="arrow" src="images/circle-right.png" alt="">
+        </div>
 
-            </div>
-      
+      </div>
+
       <div class="row">
         <div class="col-8 offset-2">
           <div class="experience-text-bg">
@@ -358,22 +358,22 @@
         <img class="img-fluid" src="images/contacts_down.jpg" alt="">
 
         <div class="contact-inner col-12 ">
-          
-                <div class="row titlesWithArrows">
 
-                  <div>
-                    <img class="arrow" src="images/circle-left-white.png" alt="">
-                  </div>
+          <div class="row titlesWithArrows">
 
-                  <div>
-                    <h1>CONTACT</h1>
-                  </div>
+            <div>
+              <img class="arrow" src="images/circle-left-white.png" alt="">
+            </div>
 
-                  <div>
-                    <img class="arrow" src="images/circle-right-white.png" alt="">
-                  </div>
+            <div>
+              <h1>CONTACT</h1>
+            </div>
 
-                </div>
+            <div>
+              <img class="arrow" src="images/circle-right-white.png" alt="">
+            </div>
+
+          </div>
 
 
           <p class="text-center">The quick brown fox jumps over the lazy dog.
@@ -386,7 +386,7 @@
                 width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
-          
+
           <div class="float-right contact-right">
             <p> <span><i class="fas fa-map-marker-alt"></i></span> XYZ. Rome, Italy</p>
             <p> <span><i class="fas fa-phone"></i></span> 0123456789</p>
@@ -419,18 +419,23 @@
   <!-- back to top -->
 
   <script>
-    // ===== Scroll to Top ==== 
+    // ===== Scroll to Top ====
     $(window).scroll(function () {
-      if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
+      if ($(this).scrollTop() >= 50) {
+        // If page is scrolled more than 50px
         $('#return-to-top').fadeIn(200); // Fade in the arrow
       } else {
         $('#return-to-top').fadeOut(200); // Else fade out the arrow
       }
     });
-    $('#return-to-top').click(function () { // When arrow is clicked
-      $('body,html').animate({
-        scrollTop: 0 // Scroll to top of body
-      }, 500);
+    $('#return-to-top').click(function () {
+      // When arrow is clicked
+      $('body,html').animate(
+        {
+          scrollTop: 0, // Scroll to top of body
+        },
+        500
+      );
     });
   </script>
 
