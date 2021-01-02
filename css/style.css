@@ -1,16 +1,11 @@
 /* PLAB CUSTOM CSS */
-
-
-
 @media screen and (max-width: 768px) {
   .arrow{
     display: none;
   }
 }
 
-.navbar{
-  /* margin: 0 auto; */
-}
+
 .site {
   max-width: 1024px;
   margin: 10px auto;
@@ -189,7 +184,6 @@ body {
 
 .experience-text-bg {
   max-width: 780px;
-  max-height: 330px;
   border-radius: .5rem;
   background-color: #ebebeb;
   padding: 10px;
@@ -225,3 +219,4 @@ body {
 .below-slider p{
    font-size: 2vw;
 }
+
